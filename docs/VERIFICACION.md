@@ -58,14 +58,15 @@ La comprobación en navegador recorrió «Donde entra la luz»: la portada abri�
 - Movimiento: la interfaz respeta `prefers-reduced-motion`; ya no hay un control manual en el pie. La preferencia del sistema no se cambió.
 - Sobre mí y Contacto conservan avisos provisionales y no muestran correos, servicios ni biografía inventados. Las cuatro páginas se alcanzan desde la navegación compartida.
 - La consola del navegador no registró errores ni advertencias durante la comprobación. No se detectaron imágenes fallidas entre las cargadas.
-- `git diff --check` sin incidencias antes de la publicación. El 11 de noviembre de 2026 se creó el commit `9999a65` y se subió a `erufrias25-a11y/MYPAGE`, rama `main`. El flujo `42968779692` falló en `actions/configure-pages`: el plan actual no admite GitHub Pages para este repositorio privado.
+- `git diff --check` sin incidencias antes de la publicación. El commit inicial `9999a65` se subió a `erufrias25-a11y/MYPAGE`, rama `main`. El primer flujo `42968779692` falló porque el repositorio era privado. Tras hacerlo público, el flujo `42969876287` terminó correctamente y publicó el sitio con GitHub Pages.
 
 ## Límites y configuración pendiente
 
-- El repositorio está en GitHub, pero no hay sitio publicado. Hace falta autorización del usuario para hacer público el repositorio privado o usar un plan compatible. No se conectó el dominio de Spaceship.
+- URL publicada por Pages: `https://erufrias25-a11y.github.io/MYPAGE/`. El repositorio es público. En Spaceship se configuraron cuatro registros A para `erufrias.work` (`185.199.108.153`, `.109.153`, `.110.153`, `.111.153`) y `www` como CNAME a `erufrias25-a11y.github.io`. `dig` confirma los cuatro A y el CNAME.
+- GitHub Pages ya tiene el CNAME `erufrias.work`, pero `https_enforced` continúa en `false`. La consulta HTTPS falla por discrepancia del certificado del host; la propagación DNS está lista y queda pendiente que GitHub emita el certificado. La URL personalizada no se declara lista para HTTPS hasta comprobarla de nuevo.
 - Los gestos táctiles están implementados, pero no se probaron en un teléfono físico. Las pruebas móviles se realizaron con el tamaño de ventana del navegador.
 - El nombre público personal y el correo siguen vacíos en `../dist/site-config.js`. La marca gráfica ERU FRIAS procede de los materiales de identidad aportados; la biografía y el contexto de sesiones siguen pendientes, sin datos inventados.
-- La vista previa es local; aún no hay un enlace público. El destino previsto es GitHub Pages. El servidor se detiene cerrando su terminal o pulsando Control+C; puede reiniciarse con el comando del README.
+- El servidor local se detiene cerrando su terminal o pulsando Control+C; puede reiniciarse con el comando del README. El dominio de Pages sirve la publicación; el dominio personalizado espera certificado HTTPS.
 
 - 9 de noviembre: el contenedor de la foto principal de Inicio conserva forma rectangular sin esquinas redondeadas y aplica feather amplio en sus cuatro bordes para fundir la foto con el fondo. El fondo ampliado al 110 % se recorta en un contenedor de ancho viewport para evitar desbordamiento horizontal. Este efecto es independiente de la máscara circular del puntero. Las galerías de las 23 sesiones usan tres columnas en escritorio y dos en pantallas menores, con masonry de proporción natural y separación uniforme; las fotos destacadas de Inicio navegan al álbum correspondiente. Validación del proyecto ejecutada tras el cambio.
 
@@ -84,7 +85,15 @@ Las capturas son estáticas; la vista previa local permite apreciar las animacio
 
 ## Ajuste de curaduría del 10 de noviembre
 
-A solicitud del usuario se quitó `sesion-21-06` (`LAUD-18.jpg`, la foto de pareja al aire libre) de la selección de Sesión 21. El original sigue intacto en su carpeta autorizada; se retiraron sus tres derivados WebP. El manifiesto, los datos publicados y la auditoría por hash suman 23 sesiones y 312 fotos (936 exportaciones). Se cambiaron los títulos provisionales de las sesiones 16–23 por etiquetas editoriales descriptivas, basadas en la categoría y los textos alternativos. La validación automática no se volvió a ejecutar después de estos ajustes.
+A solicitud del usuario se quitó `sesion-21-06` (`LAUD-18.jpg`, la foto de pareja al aire libre) de la selección de Sesión 21. El original sigue intacto en su carpeta autorizada; se retiraron sus tres derivados WebP. El manifiesto, los datos publicados y la auditoría por hash suman 23 sesiones y 312 fotos (936 exportaciones). Se cambiaron los títulos provisionales de las sesiones 16–23 por etiquetas editoriales descriptivas, basadas en la categoría y los textos alternativos. La validación vigente se ejecutó el 11 de noviembre de 2026: 23 sesiones, 312 fotografías y 936 activos.
+
+## Publicación y dominio (11 de noviembre de 2026)
+
+- El usuario hizo público `erufrias25-a11y/MYPAGE`; el workflow `42969876287` publicó correctamente GitHub Pages.
+- URL del sitio en Pages: `https://erufrias25-a11y.github.io/MYPAGE/`.
+- Se configuró `erufrias.work` en Pages y los registros DNS de Spaceship. `dig` confirmó los cuatro A de GitHub Pages y `www` CNAME a `erufrias25-a11y.github.io`.
+- `http://erufrias.work/` y `curl -k -I https://erufrias.work/` devolvieron `200` desde GitHub.com. La verificación TLS normal aún reporta un certificado que no corresponde al dominio y `https_enforced` es `false`; queda pendiente la emisión del certificado por GitHub. No habilitar enforcement hasta que TLS valide.
+- Validación local después de actualizar los documentos: `python3 tools/build_pages.py`, `node tools/validate.mjs` y `git diff --check`; todo pasó. El validador encontró 23 sesiones, 312 fotografías y 936 activos (103.8 MB).
 
 
 ## Actualización editorial (11 de noviembre de 2026)

@@ -4,7 +4,7 @@
 
 Este documento conserva las decisiones útiles de la conversación para que otro agente pueda retomar el trabajo. No contiene credenciales. Debe actualizarse cuando cambie el proyecto.
 
-**Estado actual:** portafolio de cuatro páginas con marca ERU FRIAS y fondo blanco. Inicio tiene una portada de dos columnas, cambio aleatorio cada cuatro segundos entre fotos horizontales y seis destacadas de proporción 4:5, alineadas en filas. La foto principal conserva bordes rectos; el feather solo se usa en el revelado circular del puntero. El texto de Inicio fue actualizado según la redacción del fotógrafo. Sesiones contiene 23 galerías y cinco categorías: Retrato, Celebraciones, Familia, Gastronomía y Arte. El fotógrafo definió los títulos y descripciones de las sesiones en `curation.json`; el pie ya no muestra aviso de borrador. Se retiró de la rotación de Inicio la foto `sesion-21-06`. La selección conserva 312 fotos en 23 sesiones. Se mantiene `prefers-reduced-motion`, navegación por teclado y diseño adaptable. El 11 de noviembre de 2026 el usuario autorizó subir el proyecto al repositorio privado `erufrias25-a11y/MYPAGE`, rama `main`, commit `9999a65`. GitHub Pages rechazó el despliegue porque el plan actual no permite Pages en repositorios privados; no hay URL publicada todavía. El usuario debe decidir si hace público el repositorio o mantiene la privacidad y usa un plan compatible. El dominio de Spaceship queda pendiente.
+**Estado actual:** portafolio de cuatro páginas con marca ERU FRIAS y fondo blanco. Inicio tiene una portada de dos columnas, cambio aleatorio cada cuatro segundos entre fotos horizontales y seis destacadas de proporción 4:5, alineadas en filas. La foto principal conserva bordes rectos; el feather solo se usa en el revelado circular del puntero. El texto de Inicio fue actualizado según la redacción del fotógrafo. Sesiones contiene 23 galerías y cinco categorías: Retrato, Celebraciones, Familia, Gastronomía y Arte. El fotógrafo definió los títulos y descripciones de las sesiones en `curation.json`; el pie ya no muestra aviso de borrador. Se retiró de la rotación de Inicio la foto `sesion-21-06`. La selección conserva 312 fotos en 23 sesiones. Se mantiene `prefers-reduced-motion`, navegación por teclado y diseño adaptable. El 11 de noviembre de 2026 el usuario hizo público `erufrias25-a11y/MYPAGE` y autorizó su publicación. GitHub Actions publicó correctamente el sitio (ejecución `42969876287`). Se configuró `erufrias.work` en GitHub Pages y Spaceship: DNS ya resuelve a GitHub Pages; GitHub aún no emite el certificado HTTPS. También se apuntó `www.erufrias.work` mediante CNAME.
 
 El 9 de noviembre se retiraron del visor el botón para compartir y el texto alternativo repetido bajo la foto. Las tarjetas del mosaico abren primero el álbum completo de su sesión; al seleccionar una de las fotos del álbum se abre el visor, que conserva el contador y controles.
 
@@ -18,7 +18,7 @@ El usuario autorizó las carpetas `sesion 16`, `sesion 17`, `sesion 18`, `sesion
 
 ## Objetivo y público
 
-Crear un portafolio profesional de trabajos fotográficos, en español, que otras personas puedan visitar para conocer y apreciar el trabajo del usuario. La fotografía debe protagonizar una interfaz dinámica, fácil de usar y responsive. El destino previsto es GitHub Pages. No se ha publicado todavía.
+Crear un portafolio profesional de trabajos fotográficos, en español, que otras personas puedan visitar para conocer y apreciar el trabajo del usuario. La fotografía debe protagonizar una interfaz dinámica, fácil de usar y responsive. El sitio está publicado con GitHub Pages y el dominio personalizado está configurado; la emisión del certificado HTTPS sigue pendiente.
 
 ## Dónde está la información
 
@@ -126,11 +126,11 @@ La vista previa local usa `http://127.0.0.1:4173/`. El servidor de esta sesión 
 
 `tools/build_pages.py` usa solo la biblioteca estándar de Python y genera los cuatro HTML de `dist/` desde `templates/layout.html` y las cuatro plantillas de contenido. No sobrescribe los CSS, JavaScript ni activos. Los HTML de `dist/` son generados; los CSS y JavaScript son fuentes editables. La validación Node verifica las cuatro páginas y rutas relativas, además de las galerías y activos. El flujo de GitHub también regenera las páginas antes de validar y publicar.
 
-El proyecto se subió a GitHub, pero el despliegue de Pages falló. El repositorio privado no es compatible con el plan actual (`Your current plan does not support GitHub Pages for this repository`). No se cambió la visibilidad ni el plan. Para publicarlo, el usuario debe autorizar hacer público `MYPAGE` o elegir un plan compatible. El dominio de Spaceship aún no se ha conectado.
+El primer intento de Pages (ejecución `42968779692`) falló cuando el repositorio aún era privado. Después, el usuario lo hizo público y el flujo `42969876287` completó la publicación. El sitio está en `https://erufrias25-a11y.github.io/MYPAGE/` y el dominio personalizado configurado es `erufrias.work`. DNS verificado: raíz A a `185.199.108.153`, `185.199.109.153`, `185.199.110.153` y `185.199.111.153`; `www` CNAME a `erufrias25-a11y.github.io`. Aún no se puede confirmar HTTPS en el dominio personalizado: la consulta HTTPS reportó discrepancia del certificado, mientras Pages indica `https_enforced:false`. Esperar la emisión del certificado y activar el enforcement cuando GitHub lo permita.
 
 ## Git y publicación
 
-El repositorio de destino es `https://github.com/erufrias25-a11y/MYPAGE` (privado), rama `main`; commit inicial `9999a65` (`Publish photography portfolio`). GitHub Pages se configura con `.github/workflows/pages.yml`, pero el primer intento, ejecución `42968779692`, falló porque el plan actual no admite Pages para este repositorio privado. Se requiere cambiar la visibilidad o el plan; no se hizo ninguno de esos cambios. El dominio comprado en Spaceship queda pendiente. No se creó una publicación alternativa en Sites.
+El repositorio de destino es `https://github.com/erufrias25-a11y/MYPAGE` (público), rama `main`; commit inicial `9999a65` (`Publish photography portfolio`). GitHub Pages usa `.github/workflows/pages.yml`; la ejecución `42969876287` publicó correctamente `dist/`. URL de Pages: `https://erufrias25-a11y.github.io/MYPAGE/`. Dominio de Spaceship: `erufrias.work`, configurado como CNAME en GitHub Pages. Los registros DNS ya resuelven; falta confirmar la emisión del certificado y activar HTTPS enforcement.
 
 ## Comprobaciones y límites
 
@@ -145,7 +145,7 @@ El 6 de noviembre se volvió a revisar la versión multipágina y la marca, tras
 3. La revisión actual está documentada en `docs/VERIFICACION.md` y tiene capturas renovadas. Si cambias la interfaz, vuelve a comprobar las páginas, la cuadrícula de sesiones, las galerías y el modo reducido. No vuelvas a tratar la pausa anterior ni Pinterest como bloqueos pendientes.
 4. Incorpora los datos reales que aporte el usuario en `site-config.js`; sigue la lista de `docs/CONTENIDO_PENDIENTE.md`. No necesita repetir decisiones ya guardadas.
 5. Si cambia la selección, modifica `curation.json`, regenera las copias y valida. Al retirar imágenes, retira también sus exportaciones antiguas antes de publicar; el preparador no las elimina automáticamente.
-6. El repositorio de GitHub contiene el proyecto. GitHub Pages requiere que el usuario autorice hacer público el repositorio privado o seleccione un plan compatible. El dominio de Spaceship aún no se ha conectado. No presentes un enlace local como público.
+6. El repositorio público de GitHub contiene el proyecto y GitHub Pages completó el despliegue. `erufrias.work` está configurado; esperar certificado HTTPS para dar por terminada la conexión segura. No presentes la URL raíz como lista para HTTPS hasta verificarla.
 
 Nota de interfaz: el usuario pidió mover el puntero visible. El control disponible permitía clics y navegación, pero no ofrecía un método para desplazar el cursor físico. No se afirmó haberlo movido. Esa petición no era una orden de pausar el trabajo.
 
