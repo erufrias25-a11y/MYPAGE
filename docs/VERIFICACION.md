@@ -58,11 +58,11 @@ La comprobación en navegador recorrió «Donde entra la luz»: la portada abri�
 - Movimiento: la interfaz respeta `prefers-reduced-motion`; ya no hay un control manual en el pie. La preferencia del sistema no se cambió.
 - Sobre mí y Contacto conservan avisos provisionales y no muestran correos, servicios ni biografía inventados. Las cuatro páginas se alcanzan desde la navegación compartida.
 - La consola del navegador no registró errores ni advertencias durante la comprobación. No se detectaron imágenes fallidas entre las cargadas.
-- `git diff --check` sin incidencias. El proyecto sigue sin remoto configurado ni commits. La cuenta local de GitHub CLI aparece sin token válido; no se ha publicado.
+- `git diff --check` sin incidencias antes de la publicación. El 11 de noviembre de 2026 se creó el commit `9999a65` y se subió a `erufrias25-a11y/MYPAGE`, rama `main`. El flujo `42968779692` falló en `actions/configure-pages`: el plan actual no admite GitHub Pages para este repositorio privado.
 
 ## Límites y configuración pendiente
 
-- El proyecto está preparado para GitHub Pages, pero todavía no se ha publicado.
+- El repositorio está en GitHub, pero no hay sitio publicado. Hace falta autorización del usuario para hacer público el repositorio privado o usar un plan compatible. No se conectó el dominio de Spaceship.
 - Los gestos táctiles están implementados, pero no se probaron en un teléfono físico. Las pruebas móviles se realizaron con el tamaño de ventana del navegador.
 - El nombre público personal y el correo siguen vacíos en `../dist/site-config.js`. La marca gráfica ERU FRIAS procede de los materiales de identidad aportados; la biografía y el contexto de sesiones siguen pendientes, sin datos inventados.
 - La vista previa es local; aún no hay un enlace público. El destino previsto es GitHub Pages. El servidor se detiene cerrando su terminal o pulsando Control+C; puede reiniciarse con el comando del README.

@@ -2,7 +2,7 @@
 
 Para retomar el proyecto con otro agente, comienza por [CONTEXTO_PROYECTO.md](CONTEXTO_PROYECTO.md) y [AGENTS.md](AGENTS.md). Allí se conservan decisiones, fuentes autorizadas, estructura, estado real y tareas pendientes.
 
-Una web estática, en español y adaptable a móvil, preparada para GitHub Pages. Todavía no se ha publicado ni hay un enlace público. La portada presenta seis fotografías destacadas y el acceso a las sesiones; cada sesión abre su propia galería. Las imágenes se pueden ampliar y recorrer con botones, flechas del teclado o gestos táctiles. Escape cierra la ampliación.
+Una web estática, en español y adaptable a móvil, preparada para GitHub Pages. La portada presenta seis fotografías destacadas y el acceso a las sesiones; cada sesión abre su propia galería. Las imágenes se pueden ampliar y recorrer con botones, flechas del teclado o gestos táctiles. Escape cierra la ampliación.
 
 Tiene **cuatro páginas separadas**, tal como confirmó el usuario: `index.html` (Inicio), `sesiones.html`, `sobre-mi.html` y `contacto.html`. Las galerías conservan direcciones compartibles dentro de Sesiones, por ejemplo `sesiones.html#sesion=luz-natural`.
 
@@ -22,7 +22,7 @@ Abre http://127.0.0.1:4173. Para detener el servidor, pulsa Control+C en su term
 
 ## Publicación
 
-El destino previsto es GitHub Pages. Todavía no se ha publicado ni hay un enlace público. La publicación requiere una instrucción explícita del usuario.
+El repositorio es `https://github.com/erufrias25-a11y/MYPAGE`, rama `main` (privado). GitHub Pages no está disponible para este repositorio con el plan actual; la publicación requiere hacer público el repositorio o usar un plan compatible. El dominio de Spaceship todavía no está conectado.
 
 El flujo de GitHub Pages se conserva en el proyecto como configuración técnica:
 
