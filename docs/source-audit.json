@@ -1,0 +1,169 @@
+{
+  "scope": "25 authorized sibling folders directly inside Downloads; no nested folders counted",
+  "folders": [
+    {
+      "folder": "Photos-1-001",
+      "direct_photographs": 12,
+      "selected": 12
+    },
+    {
+      "folder": "Photos-1-001 (1)",
+      "direct_photographs": 9,
+      "selected": 9
+    },
+    {
+      "folder": "Photos-1-001 (2)",
+      "direct_photographs": 10,
+      "selected": 10
+    },
+    {
+      "folder": "Photos-1-001 (3)",
+      "direct_photographs": 6,
+      "selected": 6
+    },
+    {
+      "folder": "Photos-1-001 (4)",
+      "direct_photographs": 13,
+      "selected": 12
+    },
+    {
+      "folder": "Photos-1-001 (5)",
+      "direct_photographs": 14,
+      "selected": 12
+    },
+    {
+      "folder": "Photos-1-001 (6)",
+      "direct_photographs": 13,
+      "selected": 10
+    },
+    {
+      "folder": "Photos-1-001 (7)",
+      "direct_photographs": 12,
+      "selected": 10
+    },
+    {
+      "folder": "Photos-1-001 (8)",
+      "direct_photographs": 5,
+      "selected": 2
+    },
+    {
+      "folder": "Photos-1-001 (9)",
+      "direct_photographs": 10,
+      "selected": 10
+    },
+    {
+      "folder": "Photos-1-001 (10)",
+      "direct_photographs": 14,
+      "selected": 10
+    },
+    {
+      "folder": "Photos-1-001 (11)",
+      "direct_photographs": 8,
+      "selected": 8
+    },
+    {
+      "folder": "Photos-1-001 (12)",
+      "direct_photographs": 15,
+      "selected": 12
+    },
+    {
+      "folder": "Photos-1-001 (13)",
+      "direct_photographs": 9,
+      "selected": 9
+    },
+    {
+      "folder": "Photos Jazm 2",
+      "direct_photographs": 57,
+      "selected": 12
+    },
+    {
+      "folder": "Photos say",
+      "direct_photographs": 36,
+      "selected": 12
+    },
+    {
+      "folder": "Photos-3-001",
+      "direct_photographs": 10,
+      "selected": 2
+    },
+    {
+      "folder": "sesion 16",
+      "direct_photographs": 20,
+      "selected": 20
+    },
+    {
+      "folder": "sesion 17",
+      "direct_photographs": 76,
+      "selected": 20
+    },
+    {
+      "folder": "sesion 18",
+      "direct_photographs": 148,
+      "selected": 20
+    },
+    {
+      "folder": "sesion 19",
+      "direct_photographs": 45,
+      "selected": 20
+    },
+    {
+      "folder": "sesion 20",
+      "direct_photographs": 98,
+      "selected": 20
+    },
+    {
+      "folder": "sesion 21 poner de primera",
+      "direct_photographs": 47,
+      "selected": 20
+    },
+    {
+      "folder": "sesion 22",
+      "direct_photographs": 16,
+      "selected": 15
+    },
+    {
+      "folder": "sesion 23",
+      "direct_photographs": 37,
+      "selected": 20
+    }
+  ],
+  "photographs": 740,
+  "unique_file_contents": 732,
+  "duplicate_copies": 8,
+  "exact_duplicate_groups": [
+    [
+      "Photos-1-001 (8)/_DSC4677.jpg",
+      "Photos-1-001 (9)/_DSC4677.jpg"
+    ],
+    [
+      "Photos-1-001 (8)/_DSC4697.jpg",
+      "Photos-1-001 (9)/_DSC4697.jpg"
+    ],
+    [
+      "Photos-1-001 (8)/_DSC4774.jpg",
+      "Photos-1-001 (9)/_DSC4774.jpg"
+    ],
+    [
+      "Photos-1-001 (10)/GL1 (19 of 47).jpg",
+      "Photos-3-001/GL1 (19 of 47).jpg"
+    ],
+    [
+      "Photos-1-001 (10)/GL1 (3 of 47).jpg",
+      "Photos-3-001/GL1 (3 of 47).jpg"
+    ],
+    [
+      "Photos-1-001 (10)/GL1 (42 of 47).jpg",
+      "Photos-3-001/GL1 (42 of 47).jpg"
+    ],
+    [
+      "Photos-1-001 (10)/GL1 (9 of 47).jpg",
+      "Photos-3-001/GL1 (9 of 47).jpg"
+    ],
+    [
+      "sesion 22/CHACHOSRD-84 (1).jpg",
+      "sesion 22/CHACHOSRD-84.jpg"
+    ]
+  ],
+  "selected": 313,
+  "selected_duplicate_files": 0
+}

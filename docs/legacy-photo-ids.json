@@ -1,0 +1,360 @@
+{
+  "featured": ["mar-y-cielo-01", "azul-estudio-01", "luz-natural-01", "quince-primaveras-01", "a-fuego-lento-01", "primeros-dias-01"],
+  "sessions": [
+    {
+      "id": "luz-natural",
+      "cover": "luz-natural-01",
+      "photos": [
+        {
+          "id": "luz-natural-01",
+          "folder": "Photos say",
+          "file": "sin ppt recurso -19.png"
+        },
+        {
+          "id": "luz-natural-02",
+          "folder": "Photos say",
+          "file": "sin ppt recurso -35.png"
+        },
+        {
+          "id": "luz-natural-03",
+          "folder": "Photos say",
+          "file": "sin ppt recurso -38.png"
+        },
+        {
+          "id": "luz-natural-04",
+          "folder": "Photos say",
+          "file": "sin ppt recurso -46.png"
+        }
+      ]
+    },
+    {
+      "id": "mar-y-cielo",
+      "cover": "mar-y-cielo-01",
+      "photos": [
+        {
+          "id": "mar-y-cielo-01",
+          "folder": "Photos-1-001 (5)",
+          "file": "Ilsa-21.png"
+        },
+        {
+          "id": "mar-y-cielo-02",
+          "folder": "Photos-1-001 (5)",
+          "file": "Ilsa-23.png"
+        },
+        {
+          "id": "mar-y-cielo-03",
+          "folder": "Photos-1-001 (5)",
+          "file": "Ilsa-36.png"
+        },
+        {
+          "id": "mar-y-cielo-04",
+          "folder": "Photos-1-001 (5)",
+          "file": "Ilsa-43.png"
+        }
+      ]
+    },
+    {
+      "id": "azul-estudio",
+      "cover": "azul-estudio-01",
+      "photos": [
+        {
+          "id": "azul-estudio-01",
+          "folder": "Photos-1-001 (7)",
+          "file": "SOR-12.png"
+        },
+        {
+          "id": "azul-estudio-02",
+          "folder": "Photos-1-001 (7)",
+          "file": "SOR-6.png"
+        },
+        {
+          "id": "azul-estudio-03",
+          "folder": "Photos-1-001 (7)",
+          "file": "SOR-51.png"
+        },
+        {
+          "id": "azul-estudio-04",
+          "folder": "Photos-1-001 (7)",
+          "file": "SOR-63.png"
+        }
+      ]
+    },
+    {
+      "id": "quince-primaveras",
+      "cover": "quince-primaveras-01",
+      "photos": [
+        {
+          "id": "quince-primaveras-01",
+          "folder": "Photos-1-001 (4)",
+          "file": "XVs Jazmine-6.png"
+        },
+        {
+          "id": "quince-primaveras-02",
+          "folder": "Photos-1-001 (4)",
+          "file": "XVs Jazmine-11.png"
+        },
+        {
+          "id": "quince-primaveras-03",
+          "folder": "Photos-1-001 (4)",
+          "file": "XVs Jazmine-1.png"
+        },
+        {
+          "id": "quince-primaveras-04",
+          "folder": "Photos-1-001 (4)",
+          "file": "XVs Jazmine-16.png"
+        }
+      ]
+    },
+    {
+      "id": "a-fuego-lento",
+      "cover": "a-fuego-lento-01",
+      "photos": [
+        {
+          "id": "a-fuego-lento-01",
+          "folder": "Photos-1-001 (2)",
+          "file": "PASATT (117 of 120).png"
+        },
+        {
+          "id": "a-fuego-lento-02",
+          "folder": "Photos-1-001 (2)",
+          "file": "PASATT (47 of 120).png"
+        },
+        {
+          "id": "a-fuego-lento-03",
+          "folder": "Photos-1-001 (2)",
+          "file": "PASATT (55 of 120).png"
+        },
+        {
+          "id": "a-fuego-lento-04",
+          "folder": "Photos-1-001 (2)",
+          "file": "PASATT (23 of 120).png"
+        }
+      ]
+    },
+    {
+      "id": "primeros-dias",
+      "cover": "primeros-dias-01",
+      "photos": [
+        {
+          "id": "primeros-dias-01",
+          "folder": "Photos-1-001 (6)",
+          "file": "Agatha-27.jpg"
+        },
+        {
+          "id": "primeros-dias-02",
+          "folder": "Photos-1-001 (6)",
+          "file": "Agatha-03.jpg"
+        },
+        {
+          "id": "primeros-dias-03",
+          "folder": "Photos-1-001 (6)",
+          "file": "Agatha-12.jpg"
+        },
+        {
+          "id": "primeros-dias-04",
+          "folder": "Photos-1-001 (6)",
+          "file": "Agatha-24.jpg"
+        }
+      ]
+    },
+    {
+      "id": "dulce-espera",
+      "cover": "dulce-espera-01",
+      "photos": [
+        {
+          "id": "dulce-espera-01",
+          "folder": "Photos-1-001 (10)",
+          "file": "GL1 (18 of 47).jpg"
+        },
+        {
+          "id": "dulce-espera-02",
+          "folder": "Photos-1-001 (10)",
+          "file": "GL1 (42 of 47).jpg"
+        },
+        {
+          "id": "dulce-espera-03",
+          "folder": "Photos-1-001 (10)",
+          "file": "GL1 (19 of 47).jpg"
+        },
+        {
+          "id": "dulce-espera-04",
+          "folder": "Photos-1-001 (10)",
+          "file": "GL1 (26 of 47).jpg"
+        }
+      ]
+    },
+    {
+      "id": "retrato-cotidiano",
+      "cover": "retrato-cotidiano-01",
+      "photos": [
+        {
+          "id": "retrato-cotidiano-01",
+          "folder": "Photos-1-001 (3)",
+          "file": "Boris Marte-01.png"
+        },
+        {
+          "id": "retrato-cotidiano-02",
+          "folder": "Photos-1-001 (3)",
+          "file": "Boris Marte-11.png"
+        },
+        {
+          "id": "retrato-cotidiano-03",
+          "folder": "Photos-1-001 (3)",
+          "file": "Boris Marte-24.png"
+        },
+        {
+          "id": "retrato-cotidiano-04",
+          "folder": "Photos-1-001 (3)",
+          "file": "Boris Marte-25.png"
+        }
+      ]
+    },
+    {
+      "id": "ideas-en-comun",
+      "cover": "ideas-en-comun-01",
+      "photos": [
+        {
+          "id": "ideas-en-comun-01",
+          "folder": "Photos-1-001",
+          "file": "SIN PPT WORKSHOP-19.jpg"
+        },
+        {
+          "id": "ideas-en-comun-02",
+          "folder": "Photos-1-001",
+          "file": "SIN PPT WORKSHOP-01.jpg"
+        },
+        {
+          "id": "ideas-en-comun-03",
+          "folder": "Photos-1-001",
+          "file": "SIN PPT WORKSHOP-41.jpg"
+        }
+      ]
+    },
+    {
+      "id": "a-la-orilla",
+      "cover": "a-la-orilla-01",
+      "photos": [
+        {
+          "id": "a-la-orilla-01",
+          "folder": "Photos-1-001 (1)",
+          "file": "BRIANA (14 of 22).png"
+        },
+        {
+          "id": "a-la-orilla-02",
+          "folder": "Photos-1-001 (1)",
+          "file": "BRIANA (4 of 22).png"
+        },
+        {
+          "id": "a-la-orilla-03",
+          "folder": "Photos-1-001 (1)",
+          "file": "BRIANA (21 of 22).png"
+        }
+      ]
+    },
+    {
+      "id": "jardin-de-recuerdos",
+      "cover": "jardin-de-recuerdos-01",
+      "photos": [
+        {
+          "id": "jardin-de-recuerdos-01",
+          "folder": "Photos-1-001 (9)",
+          "file": "_DSC4573.jpg"
+        },
+        {
+          "id": "jardin-de-recuerdos-02",
+          "folder": "Photos-1-001 (9)",
+          "file": "_DSC4697.jpg"
+        },
+        {
+          "id": "jardin-de-recuerdos-03",
+          "folder": "Photos-1-001 (9)",
+          "file": "_DSC4778.jpg"
+        }
+      ]
+    },
+    {
+      "id": "amarillo-tropical",
+      "cover": "amarillo-tropical-01",
+      "photos": [
+        {
+          "id": "amarillo-tropical-01",
+          "folder": "Photos-1-001 (11)",
+          "file": "Emi_s (7 of 46).png"
+        },
+        {
+          "id": "amarillo-tropical-02",
+          "folder": "Photos-1-001 (11)",
+          "file": "Emi_s (16 of 46).png"
+        },
+        {
+          "id": "amarillo-tropical-03",
+          "folder": "Photos-1-001 (11)",
+          "file": "Emi_s (12 of 46).png"
+        }
+      ]
+    },
+    {
+      "id": "un-dia-de-color",
+      "cover": "un-dia-de-color-01",
+      "photos": [
+        {
+          "id": "un-dia-de-color-01",
+          "folder": "Photos-1-001 (12)",
+          "file": "fotos (9 of 54).png"
+        },
+        {
+          "id": "un-dia-de-color-02",
+          "folder": "Photos-1-001 (12)",
+          "file": "fotos (16 of 54).png"
+        },
+        {
+          "id": "un-dia-de-color-03",
+          "folder": "Photos-1-001 (12)",
+          "file": "fotos (52 of 54).png"
+        }
+      ]
+    },
+    {
+      "id": "un-nuevo-capitulo",
+      "cover": "un-nuevo-capitulo-01",
+      "photos": [
+        {
+          "id": "un-nuevo-capitulo-01",
+          "folder": "Photos-1-001 (13)",
+          "file": "Kevin GRD (13 of 22).png"
+        },
+        {
+          "id": "un-nuevo-capitulo-02",
+          "folder": "Photos-1-001 (13)",
+          "file": "Kevin GRD (6 of 22).png"
+        },
+        {
+          "id": "un-nuevo-capitulo-03",
+          "folder": "Photos-1-001 (13)",
+          "file": "Kevin GRD (11 of 22).png"
+        }
+      ]
+    },
+    {
+      "id": "una-noche-para-recordar",
+      "cover": "una-noche-para-recordar-01",
+      "photos": [
+        {
+          "id": "una-noche-para-recordar-01",
+          "folder": "Photos Jazm 2",
+          "file": "JAZMINE XV'S-49.jpg"
+        },
+        {
+          "id": "una-noche-para-recordar-02",
+          "folder": "Photos Jazm 2",
+          "file": "JAZMINE XV'S-25.jpg"
+        },
+        {
+          "id": "una-noche-para-recordar-03",
+          "folder": "Photos Jazm 2",
+          "file": "JAZMINE XV'S-41.jpg"
+        }
+      ]
+    }
+  ]
+}
