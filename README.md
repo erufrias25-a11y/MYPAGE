@@ -22,16 +22,16 @@ Abre http://127.0.0.1:4173. Para detener el servidor, pulsa Control+C en su term
 
 ## Publicación
 
-El repositorio es `https://github.com/erufrias25-a11y/MYPAGE`, rama `main` (público). GitHub Actions publicó el sitio en GitHub Pages. Dominio configurado: [erufrias.work](https://erufrias.work). Los DNS ya resuelven a GitHub Pages; el certificado HTTPS está pendiente de emisión. También se configuró `www.erufrias.work` como alias CNAME.
+El repositorio es `https://github.com/erufrias25-a11y/MYPAGE`, rama `main` (público). GitHub Actions publicó el sitio en GitHub Pages. Dominio configurado: [erufrias.work](https://erufrias.work), con HTTPS forzado. `www.erufrias.work` también está configurado y redirige al dominio principal por HTTPS.
 
 El flujo de GitHub Pages se conserva en el proyecto como configuración técnica:
 
 1. Los cambios se suben a la rama `main` del repositorio indicado. No se suben las fotografías originales de Descargas.
 2. GitHub Pages usa **GitHub Actions** como origen.
 3. El flujo `Publicar portafolio` valida y publica exclusivamente `dist/` al actualizar `main`.
-4. URL establecida por GitHub Pages: `https://erufrias25-a11y.github.io/MYPAGE/`. `erufrias.work` ya sirve la publicación por HTTP; espera a que Pages emita el certificado antes de usar su URL HTTPS.
+4. La URL principal es `https://erufrias.work/`; GitHub Pages también ofrece `https://erufrias25-a11y.github.io/MYPAGE/`.
 
-La validación DNS ya observa los cuatro registros A del dominio raíz y el CNAME de `www`. GitHub todavía no ha emitido el certificado HTTPS, por lo que el dominio puede tardar en abrirse de forma segura. Guía oficial: [publicar Pages con GitHub Actions](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
+La validación DNS confirmó los cuatro registros A del dominio raíz y el CNAME de `www`; el certificado HTTPS ya fue aprobado y la redirección segura quedó activa. Guía oficial: [publicar Pages con GitHub Actions](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
 
 ## Personalizar
 
